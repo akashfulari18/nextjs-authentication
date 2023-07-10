@@ -72,7 +72,7 @@ const LoginPage = () => {
         onClick={onLogin}
       >
         {" "}
-        {buttonDisabled ? "Login" : "not now"}
+        {!buttonDisabled ? "Login" : "not now"}
       </button>
       <Link className="text-black" href={"/signup"}>
         Visit Signup here
